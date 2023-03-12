@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Jogo de matemática</title>
+</head>
+<body>
+        <div class="container">
+                <div class="box">
+                        <h1>Jogo de multiplicação</h1>
+
+                        <div class="connteudo">
+                                <div class="numeros">
+                                        <h2 class="primeiro-numero"></h2>
+                                        <h2>x</h2>
+                                        <h2 class="segundo-numero"></h2>
+                                </div>
+
+                                <input type="number" class="resposta"><br>
+                                <button onclick="btn()">Responder</button>
+                                <button value="Próximo" onClick="window.location.reload()">Proximo</button>
+
+                                <h3  class="resultado"></h3>
+                        </div>
+                </div>
+        </div>
+
+        <script src="scrip.js"></script>
+</body>
+</html>
